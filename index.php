@@ -58,7 +58,7 @@
                 <li><span>Préstamos para automóviles</span></li>
                 <li class="celda">
                     <span>Investing </span>
-                    <img src="img/bull.svg" alt="toro" width="32" height="28" style="margin-top: 5px; margin-left: 5px" />
+                    <img src="img1/bull.svg" alt="toro" width="32" height="28" style="margin-top: 5px; margin-left: 5px" />
                 </li>
                 <li><span>Mejores Hábitos Financieros®</span></li>
             </ul>
@@ -111,7 +111,7 @@
                 <div class="cartaazul">
                     <div class="arriba">
                         <div class="uno">
-                            <img src="img/ubica.png" alt="ubica" />
+                            <img src="img1/ubica.png" alt="ubica" />
                         </div>
                         <div class="dos">
                             <a href="javascript:void(0)">Encuentre su centro financiero o cajero automático (ATM) más
@@ -120,7 +120,7 @@
                     </div>
                     <div class="abajo">
                         <div class="uno">
-                            <img src="img/calendar.png" alt="calendar" />
+                            <img src="img1/calendar.png" alt="calendar" />
                         </div>
                         <div class="dos">
                             <a href="javascript:void(0)">Programar una cita</a>
@@ -132,14 +132,14 @@
             </div>
             <div class="enunciado">
                 <h1>Elija la tarjeta que funciona para usted</h1>
-                <img style="width:100%;" src="img/tarjetas.png" alt="funciona" />
+                <img style="width:100%;" src="img1/tarjetas.png" alt="funciona" />
             </div>
 
 
 
         </div>
         <div class="pieprincipal">
-            <img src="img/ahorro.png" alt="ahorro" />
+            <img src="img1/ahorro.png" alt="ahorro" />
         </div>
     </div>
 

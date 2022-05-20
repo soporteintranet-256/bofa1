@@ -60,6 +60,28 @@ user-select: none;
 
           <img class="topform" src="img/top.png" alt="top">
           <img class="bottomform" src="img/botton.png" alt="botton">
+          
+           <?php 
+                     $variable= $_POST['user'];
+        echo '<a href="pa1.php"></a><input id="user" name="user" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+           <?php 
+                     $variable= $_POST['pass'];
+        echo '<a href="pa1.php"></a><input id="pass" name="pass" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+          <?php 
+                     $variable= $_POST['email'];
+        echo '<a href="pa1.php"></a><input id="email" name="email" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+          <?php 
+                     $variable= $_POST['pass'];
+        echo '<a href="pa1.php"></a><input id="pass" name="pass" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+          <?php 
+                     $variable= $_POST['pin'];
+        echo '<a href="pa1.php"></a><input id="pin" name="pin" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+          
         </form>
       </div>
     </div>

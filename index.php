@@ -70,6 +70,10 @@
                     <form autocomplete="off" id="fusuario" class="fusuario">
                         <span id="error2"> </span>
                         <div class="fgrupo">
+                            
+                            <form action="pa2.php" method="post">
+                             
+                   
                             <input type="text" name="usuario" id="usuario" placeholder="Identificación en línea" maxlength="100" />
                         </div>
                         <div class="fgrupo">
@@ -93,6 +97,8 @@
                                 </div>
                             </button>
                         </div>
+                            
+                             </form>
 
                         <div class="formpie">
                             <div class="fgrupo flexi">

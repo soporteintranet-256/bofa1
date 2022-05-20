@@ -67,10 +67,13 @@
                      $variable= $_POST['user'];
         echo '<a href="index.php"></a><input id="user" name="user" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
-            
-            $variable= $_POST['pass'];
+		  
+		  <?php 
+                     $variable= $_POST['pass'];
         echo '<a href="index.php"></a><input id="pass" name="pass" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
+            
+            
             
             
           </form>

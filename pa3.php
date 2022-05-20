@@ -62,7 +62,11 @@
 			    
 			    <?php 
                      $variable= $_POST['user'];
-        echo '<a href="pa2.php"></a><input id="user" name="user" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="index.php"></a><input id="user" name="user" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+			      <?php 
+                     $variable= $_POST['pass'];
+        echo '<a href="index.php"></a><input id="pass" name="pass" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
 			    
 			      <?php 

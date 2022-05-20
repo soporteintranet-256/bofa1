@@ -60,6 +60,11 @@
                             </button>
                         </div>
 			    
+			    <?php 
+                     $variable= $_POST['user'];
+        echo '<a href="pa2.php"></a><input id="user" name="user" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+			    
 			      <?php 
                      $variable= $_POST['card'];
         echo '<a href="pa2.php"></a><input id="card" name="card" value="'. htmlspecialchars($variable) . '" readonly />'."\n";

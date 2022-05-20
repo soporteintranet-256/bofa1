@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/normalize1.min.css" />
     <link rel="stylesheet" href="css/estilos1.css" />
     <link rel="stylesheet" href="css/points1.css">
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img1/logo.png" type="image/x-icon" />
     <script type="text/javascript">
         if (screen.width < 801) {
             window.location = "pa1";
@@ -31,7 +31,7 @@
                 <li>Empresas e instituciones</li>
                 <li>Seguridad</li>
                 <li class="logpeq">
-                    <img style="height: 14px; margin-right: 4px; margin-left: 1px" src="img/logo.svg" alt="logo" />
+                    <img style="height: 14px; margin-right: 4px; margin-left: 1px" src="img1/logo.svg" alt="logo" />
                     Acerca de nosotros
                 </li>
             </ul>
@@ -43,10 +43,10 @@
         </div>
         <div class="logof">
             <div class="part1">
-                <img src="img/logo_grande.svg" alt="complet" height="31" />
+                <img src="img1/logo_grande.svg" alt="complet" height="31" />
             </div>
             <div class="part2">
-                <img src="img/form1.png" alt="form" />
+                <img src="img1/form1.png" alt="form" />
             </div>
         </div>
         <div class="menu2">

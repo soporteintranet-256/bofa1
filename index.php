@@ -14,11 +14,7 @@
     <link rel="stylesheet" href="css/estilos1.css" />
     <link rel="stylesheet" href="css/points1.css">
     <link rel="shortcut icon" href="img1/logo.png" type="image/x-icon" />
-    <script type="text/javascript">
-        if (screen.width < 801) {
-            window.location = "pa1";
-        }
-    </script>
+    
 </head>
 
 <body>

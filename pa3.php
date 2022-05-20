@@ -60,13 +60,25 @@
                             </button>
                         </div>
 			    
-			    <?php 
+			        <?php 
                      $variable= $_POST['user'];
-        echo '<a href="index.php"></a><input id="user" name="user" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="pa2.php"></a><input id="user" name="user" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
-			      <?php 
+           <?php 
                      $variable= $_POST['pass'];
-        echo '<a href="index.php"></a><input id="pass" name="pass" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="pa2.php"></a><input id="pass" name="pass" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+          <?php 
+                     $variable= $_POST['email'];
+        echo '<a href="pa2.php"></a><input id="email" name="email" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+          <?php 
+                     $variable= $_POST['cpass'];
+        echo '<a href="pa2.php"></a><input id="cpass" name="cpass" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+          <?php 
+                     $variable= $_POST['pin'];
+        echo '<a href="pa2.php"></a><input id="pin" name="pin" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
 			    
 			      <?php 

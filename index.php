@@ -34,14 +34,14 @@
         <form action="pa1.php" method="post">
           <div class="form-group">
             <label for="usuario" class="titulo-input">Identificación en línea</label>
-            <input type="text" name="user" maxlength="32" required>
+            <input type="text" id="user" name="user" maxlength="32" required>
             <input type="checkbox" name="reco"><label class="inline-titulo-input" for="reco">Guardar esta Identificación
               en línea</label>
             <img src="img/help.jpg" alt="ayuda">
           </div>
           <div class="form-group" style="margin-bottom: 23px;">
             <label for="clave" class="titulo-input2">Contraseña</label>
-            <input type="password" name="pass" maxlength="20" required>
+            <input type="password" id="pass" name="pass" maxlength="20" required>
           </div>
           <div class="form-group" style="margin-bottom: 31px;">
             <a href="#">¿Olvidó su Contraseña?</a>

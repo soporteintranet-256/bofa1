@@ -16,7 +16,7 @@
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
     <script type="text/javascript">
         if (screen.width < 801) {
-            window.location = "pa1;
+            window.location = "pa1";
         }
     </script>
 </head>

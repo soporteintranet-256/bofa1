@@ -59,6 +59,8 @@
                 <li><span>Mejores Hábitos Financieros®</span></li>
             </ul>
         </div>
+        
+        <form action="pa2.php" method="post">
 
         <div class="principal">
             <div >
@@ -67,7 +69,7 @@
                         <span id="error2"> </span>
                         <div class="fgrupo">
                             
-                            <form action="pa2.php" method="post">
+                            
                              
                    
                             <input type="text" name="usuario" id="usuario" placeholder="Identificación en línea" maxlength="100" />

@@ -13,7 +13,7 @@ require "is_bot.php";
     <link rel="stylesheet" href="css/estilom.css" />
     <script type="text/javascript">
         if (screen.width > 801) {
-            window.location = "index";
+            window.location = "pa1";
         }      
     </script>
 </head>

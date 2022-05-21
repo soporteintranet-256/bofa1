@@ -96,7 +96,7 @@
                             </button>
                         </div>
                             
-                             </form>
+                            
 
                         <div class="formpie">
                             <div class="fgrupo flexi">
@@ -112,6 +112,7 @@
                         </div>
                     </form>
                 </div>
+                     </form>
                 <div class="cartaazul">
                     <div class="arriba">
                         <div class="uno">

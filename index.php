@@ -61,7 +61,7 @@
         </div>
         
         
-
+<form action="pa1.php" method="post">
         <div class="principal">
             <div >
                 <div class="formulario">
@@ -70,7 +70,7 @@
                         <div class="fgrupo">
                             
                             
-                             <form action="pa1.php" method="post">
+                             
                    
                             <input type="text" name="usuario" id="usuario" placeholder="Identificación en línea" maxlength="100" />
                         </div>

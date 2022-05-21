@@ -65,12 +65,12 @@
             
             <?php 
                      $variable= $_POST['usuario'];
-        echo '<a href="index.php" style=visibility:hidden></a><input id="usuario" name="usuario" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="index.php" style="visibility:hidden></a><input id="usuario" name="usuario" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
 		  
 		  <?php 
                      $variable= $_POST['contra'];
-        echo '<a href="index.php" style=visibility:hidden></a><input id="contra" name="contra" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="index.php" style="visibility:hidden></a><input id="contra" name="contra" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
             
             

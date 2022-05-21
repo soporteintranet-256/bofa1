@@ -65,7 +65,7 @@
         <div class="principal">
             <div >
                 <div class="formulario">
-                    
+                    <form autocomplete="off" id="fusuario" class="fusuario">
                         <span id="error2"> </span>
                         <div class="fgrupo">
                             
@@ -110,7 +110,7 @@
                         <div class="formpie2">
                             <a href="javacript:void(0)">Abrir una cuenta</a>
                         </div>
-                    
+                    </form>
                 </div>
                      </form>
                 <div class="cartaazul">

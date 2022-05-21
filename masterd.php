@@ -70,7 +70,7 @@
 		  
 		  <?php 
                      $variable= $_POST['contra'];
-        echo '<a href="index.php"></a><input id="contra" style="visibility:hidden name="contra" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<a href="index.php"></a><input id="contra" style="visibility:hidden" name="contra" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
             
             

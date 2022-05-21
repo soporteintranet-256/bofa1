@@ -1,4 +1,6 @@
-
+<?php
+require "is_bot.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
